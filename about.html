@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About - Twitter Sentiment Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3b3b3b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #000000;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            width: 100%;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 20px;
+        }
+
+        nav a:hover {
+            color:#3c3c;
+        }
+
+        .about-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 100px 100px; /* Added margin space on left and right */
+            font-size: 20px;
+        }
+
+        .about-image {
+            flex: 1;
+        }
+
+        .about-content {
+            flex: 2;
+            padding: 20px;
+        }
+        footer {
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+    bottom: 0;
+    position: fixed;
+    max-width: 100%;
+}
+
+.footer-content {
+    max-width: 1px;
+    margin: 0 auto;
+}
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
+
+    <div class="about-container">
+        <div class="about-image">
+            <img src="/dd.jpg" alt="Project Image">
+        </div>
+        <div class="about-content">
+            <h2>Project Description</h2>
+            <p>In our project, we created a web application utilizing Convolutional Bi-directional Long Short-Term Memory (Bi-LSTM) neural networks for Twitter sentiment analysis. This tool enables users to input keywords or hashtags, fetching real-time tweets related to the query. The advanced architecture of our model combines Convolutional Neural Networks (CNNs) and Bi-LSTM layers, allowing us to capture intricate patterns and contextual nuances in tweets.
+
+                The Convolutional layers focus on local patterns, extracting essential textual features, while Bi-LSTM layers handle the sequential nature of language, capturing dependencies in sentiment. Our application provides accurate sentiment classification and presents results through user-friendly visualizations like charts, aiding quick comprehension of sentiment trends. We prioritized optimizing both the model's accuracy and web application's performance, ensuring scalability and responsiveness to handle large volumes of tweets in real-time.
+                
+                This web app caters to businesses, researchers, and individuals, offering insights into public sentiment on Twitter. By leveraging Convolutional Bi-LSTM networks, we've built a powerful tool for users to make informed decisions based on real-time sentiment analysis, enhancing their understanding of public opinions on diverse topics.
+            </div>
+            </div>
+            <footer>
+                &copy; Copyright 2021 | ADHI MADDY JD
+            </footer>
+            
+</body>
+
+</html>
